@@ -1,0 +1,28 @@
+{
+  "name": "cryptoview",
+  "version": "0.1.0",
+  "description": "Get charts and price alert notifications of your favorite cryptocurrencies",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryanplaton/cryptoview.git"
+  },
+  "dependencies": {
+    "d3": "^4.10.2",
+    "express": "^4.15.4",
+    "graphql": "^0.11.3",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.13"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryanplaton/cryptoview/issues"
+  },
+  "homepage": "https://github.com/ryanplaton/cryptoview#readme",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
