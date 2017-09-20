@@ -2,7 +2,7 @@ const fetch = require('node-fetch');
 const { GraphQLSchema, GraphQLObjectType, GraphQLString, GraphQLList } = require('graphql');
 
 const charts = 'https://api.blockchain.info/charts/'
-
+// GRAPHQL schema and types. TODO: Schema structure is not correct
 const ChartType = new GraphQLObjectType({
   name: 'Chart',
   description: 'Chart data',
