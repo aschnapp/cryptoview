@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Get charts and price alert notifications of your favorite cryptocurrencies",
   "proxy": "http://localhost:4000/",
+  "homepage": ".",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ryanplaton/cryptoview.git"
@@ -25,7 +26,6 @@
   "bugs": {
     "url": "https://github.com/ryanplaton/cryptoview/issues"
   },
-  "homepage": "https://github.com/ryanplaton/cryptoview#readme",
   "scripts": {
     "start": "NODE_ENV=development run-p client dev",
     "client": "react-scripts start",
