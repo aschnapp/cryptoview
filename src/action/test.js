@@ -5,7 +5,6 @@ const test = (input) => {
   };
 };
 
-
 export {
   test
 };
