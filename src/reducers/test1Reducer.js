@@ -6,5 +6,8 @@ export default function reducer(state =
   case 'TEST1': {
     return {...state, test1: action.payload};
   }
+  default: {
+    return null
+  }
   }
 }

@@ -8,6 +8,7 @@ import reducer from './reducers/index.js';
 
 export default createStore(
   reducer,
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
   composeWithDevTools(
     applyMiddleware(
       thunk,
